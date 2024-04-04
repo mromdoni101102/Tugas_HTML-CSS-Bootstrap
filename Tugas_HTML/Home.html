@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+
+    <!-- Link untuk Bootstrap CSS Harus di header -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="Home.css">
+
+    <!-- Link untuk mengakses ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+
+  <body>
+    <!-- AWAL NAVBAR -->
+    <!-- Mengubah BG Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light-bg-primary">
+      <div class="container-fluid">
+        <!-- Icon -->
+        <img class="icon" src="Gambar/Icon.png" />
+
+        <!-- Properti di dalam Navbar -->
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">About Us</a>
+            </li>
+            <!-- Menu dengan Drop-down -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Live Chat</a></li>
+                <li><a class="dropdown-item" href="#">Aktivitas Siswa</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Nilai Akademik</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- Button Log Out -->
+        <button type="button" class="btn btn-info text-white">Log Out</button>
+      </div>
+    </nav>
+    <!-- Akhir NAVBAR -->
+
+    <!-- Intro teks dan img -->
+    <div class="container d-flex align-items-center">
+      <div class="teks-intro">
+        <h1><strong>Aktivitas anak dapat dipantau kapan saja</strong></h1>
+        <button type="button" class="btn btn-warning">Gabung sekarang</button>
+      </div>
+
+      <div class="img-learn">
+        <img src="Gambar/Home.jpg" style="width: 114%" />
+      </div>
+    </div>
+
+    <!-- Membuat garis Horizontal -->
+    <hr class="custom-line" />
+
+    <h2 style="text-align: center">
+      <strong>Mengapa kita lebih baik dari yang lain?</strong>
+    </h2>
+
+    <!-- Card Option -->
+
+    <div class="card-row">
+      <div class="card-1 card" style="width: 18rem">
+        <div class="card-body">
+          <img src="Gambar/icons8-book-48.png" />
+          <h5 class="card-title">Digital Platform</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+
+      <div class="card-2 card" style="width: 18rem">
+        <div class="card-body">
+          <img src="Gambar/icons8-submit-idea-48.png" />
+          <h5 class="card-title">Optimal Ideation</h5>
+          <p class="card-text">
+            Pengembangan konsep terbaik untuk solusi pembelajaran efektif dan
+            inovatif.
+          </p>
+        </div>
+      </div>
+
+      <div class="card-3 card" style="width: 18rem">
+        <div class="card-body">
+          <img src="Gambar/icons8-leaf-50.png" />
+          <h5 class="card-title">Favorable Setting</h5>
+          <p class="card-text">
+            Lingkungan pembelajaran yang mendukung dan kondusif bagi siswa untuk
+            belajar.
+          </p>
+        </div>
+      </div>
+      <div class="card-4 card" style="width: 18rem">
+        <div class="card-body">
+          <img src="Gambar/icons8-people-voice64.png" />
+          <h5 class="card-title">Effective Interaction</h5>
+          <p class="card-text">
+            Interaksi efektif antara siswa dan pengajar untuk meningkatkan
+            pembelajaran.
+          </p>
+        </div>
+      </div>
+
+      <div class="card-5 card" style="width: 18rem">
+        <div class="card-body">
+          <img src="Gambar/icons8-delivery-time-50.png" />
+          <h5 class="card-title">Flexible Time</h5>
+          <p class="card-text">
+            Fleksibilitas dalam pengaturan waktu belajar sesuai kebutuhan
+            individu.
+          </p>
+        </div>
+      </div>
+
+      <div class="card-6 card" style="width: 18rem">
+        <div class="card-body">
+          <img src="Gambar/icons8-heart-with-mouse-64.png" />
+          <h5 class="card-title">Reliable</h5>
+          <p class="card-text">
+            Keandalan platform dalam menyediakan akses stabil tanpa gangguan.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h2 style="text-align: center">
+      <strong>Fitur Kami</strong>
+    </h2>
+
+    <p style="text-align: center">
+      Kami Menyediakan Berbagai Fitur Seperti...</>
+    </p>
+
+    <!-- Card Menu -->
+    <div class="card-row-menu">
+      <div class="card" style="width: 18rem;">
+        <img src="Gambar/Live-chat.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Live chat</h5>
+          <p class="card-text">Live Chat yang memungkinkan orang tua dan siswa berkomunikasi langsung dengan guru atau staf sekolah secara real-time untuk mendapatkan bantuan atau menjawab pertanyaan tentang perkembangan siswa</p>
+          <a href="#" class="btn btn-primary">READ MORE</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="Gambar/Aktivitas-siswa.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Aktivitas Siswa</h5>
+          <p class="card-text">Aktivitas siswa, seperti tugas, jadwal, dan kegiatan lainnya di sekolah diinput untuk memberikan visibilitas tentang kegiatan siswa dan memastikan keterlibatan sesuai jadwal dan kebutuhan pendidikan mereka</p>
+          <a href="#" class="btn btn-primary">READ MORE</a>
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="Gambar/Nilai-akademik.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Nilai Akademik</h5>
+          <p class="card-text">Nilai Akademik mencakup hasil evaluasi seperti nilai ujian, tugas, atau proyek. Ini memungkinkan pemantauan oleh guru dan orang tua, membantu memberikan umpan balik, menilai kemajuan, dan memberikan dukungan untuk meningkatkan prestasi siswa.</p>
+          <a href="#" class="btn btn-primary">READ MORE</a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h3>MODE</h3>
+          <p>Mode merupakan platform yang menjawab keresahan orang tua untuk mengetahui aktivitas anak di sekolah. Platform Mode memudahkan orang tua memantau anak dari jarak jauh tentang perilaku anak di sekolah, karena tersedianya hasil akademik anak, aktivitas anak, hingga terdapat konseling bersama guru BK di sekolah yang memanfaatkan fitur live chat. Guru BK dan Wali Kelas anak menjadi pendukung perjalanan Mode</p>
+          
+          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+        
+        </div>
+        <div class="footer-content">
+          <div class="fix-position-about">
+            <h3>About</h3>
+            <p>Menu
+              <br><br>
+              Features
+              <br><br>
+              News & Blogs
+              <br><br>
+              Help & Supports</p>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <div class="fix-position-company">
+            <h3>Company</h3>
+            <p>How we work
+              <br><br>
+              Terms of service
+              <br><br>
+              Pricing
+              <br><br>
+              FAQ</p>
+          </div>
+        </div>
+
+        <div class="footer-content">
+          <div class="fix-position-contact">
+            <h3>Contact Us</h3>
+            <p>Jalan Dr. T. Mansur No.9, Padang Bulan, Kec. Medan Baru, Kota Medan, Sumatera Utara 20155
+              <br><br>
+              +62 821-0918-2132
+              <br><br>
+              mode@mail.com
+              <br><br>
+              www.mode.com</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- Link untuk JavaScript -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
