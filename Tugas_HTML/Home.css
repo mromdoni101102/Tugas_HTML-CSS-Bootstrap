@@ -4,13 +4,6 @@ img.icon {
   div.navbar-collapse {
     padding-left: 35%;
   }
-  .container {
-    display: flex;
-    margin-bottom: -16px;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 77px;
-  }
 
   .teks-intro {
     flex: 1;
