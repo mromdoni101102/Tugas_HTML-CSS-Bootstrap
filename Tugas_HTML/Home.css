@@ -66,9 +66,7 @@ img.icon {
     padding: 20px 0;
   }
   
-  .container {
-    max-width: 1500px;
-    margin: 0 auto;
+  .container-footer {
     display: flex;
     justify-content: space-between;
   }
