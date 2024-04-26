@@ -128,7 +128,7 @@ img.icon {
   
     .slider:before {
       position: absolute;
-      content: "";
+      content: ""; /*digunakan untuk menambahkan konten ke dalam elemen*/
       height: 26px;
       width: 26px;
       left: 4px;
@@ -143,10 +143,11 @@ img.icon {
     }
   
     input:checked+.slider:before {
-      transform: translateX(26px);
+      transform: translateX(26px); /*mengubah posisi horizontal elemen sebesar 26 piksel ke arah kanan.*/
     }
   
-    /* Style the switch */
+    /* Style the switch 
+    Properti ini mengatur radius sudut elemen button switch*/
     .slider.round {
       border-radius: 34px;
     }
@@ -154,3 +155,21 @@ img.icon {
     .slider.round:before {
       border-radius: 50%;
     }
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      z-index: 1;
+  }
+  
+  .dropdown-menu a {
+      display: block;
+      padding: 10px 15px;
+      color: #333;
+      text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+      display: block;
+  }
